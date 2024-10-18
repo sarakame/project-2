@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع عن المكياج</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2; /* خلفية وردية فاتحة */
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ffb6c1; /* لون وردي للشعار */
+            padding: 20px;
+        }
+
+        .logo h1 {
+            color: #f8f8ff; /* لون فضي فاتح */
+            font-size: 40px;
+            font-family: 'Comic Sans MS', cursive;
+            animation: move-logo 3s infinite;
+        }
+
+        @keyframes move-logo {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(10px); }
+            100% { transform: translateX(0); }
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f8f8ff; /* لون فضي للنصوص */
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ff69b4; /* لون وردي زاهي عند التحريك */
+        }
+
+        section {
+            padding: 50px 0;
+            background-color: rgba(255, 192, 203, 0.5); /* خلفية وردية شفافة للأقسام */
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #f8f8ff; /* لون فضي لعناوين الأقسام */
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .image-gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .product img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        p {
+            color: #ff69b4; /* لون وردي للنصوص العادية */
+        }
+
+        footer {
+            background-color: #ffb6c1;
+            color: #f8f8ff; /* لون فضي في الفوتر */
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>women pretty</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#gallery">معرض الصور</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#more">المزيد</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="gallery">
+        <h2>معرض الصور</h2>
+        <div class="image-gallery">
+            <!-- هنا تضيف الصور -->
+            <img src="makeup1.jpg" alt="صورة مكياج">
+            <img src="makeup2.jpg" alt="مستحضرات تجميل">
+            <img src="makeup3.jpg" alt="أدوات مكياج">
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>المنتجات</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="product1.jpg" alt="منتج مكياج">
+                <p>منتج 1</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="منتج مكياج">
+                <p>منتج 2</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="more">
+        <h2>المزيد</h2>
+        <p>كل ما تحتاجينه لتألق وجمالك الطبيعي.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 موقع عن المكياج. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
+<img src="/path/to/your-image.jpg" alt="وصف الصورة">
+<img src="https://your-hosted-image-link.jpg" alt="وصف الصورة">imges/img.jpg
